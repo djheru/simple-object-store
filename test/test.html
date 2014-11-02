@@ -1,0 +1,23 @@
+<html>
+<head>
+    <title>Nodeunit Test Suite</title>
+    <!--
+      Note this file is only used for 'make browser', when it is copied to
+      dist/browser/test.html for running the browser test suite
+    -->
+    <link rel="stylesheet" href="nodeunit.css" type="text/css" media="screen"/>
+
+    <script src="nodeunit.js"></script>
+    <script src="../node_modules/chance/chance.js"></script>
+    <script src="../lib/simple-object-store.js"></script>
+    <script src="simple_object_store_test.js"></script>
+</head>
+<body>
+<h1 id="nodeunit-header">Nodeunit Test Suite</h1>
+<script>
+    nodeunit.run({
+        'test-simple-object-store': simple_object_store_test
+    });
+</script>
+</body>
+</html>
