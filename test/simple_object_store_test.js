@@ -67,7 +67,7 @@ this.simple_object_store_test = {
         db1.insert(testRecord1, function (err, record) {
             var db2 = new SimpleObjectStore(testName);
 
-            console.log('persist', record, db2.data, record);
+            console.log('persist', db2.data);
             test.equal(db2.data[0].firstName, record.firstName, 'names should be equal');
             test.done();
         });
