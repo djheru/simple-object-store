@@ -1,6 +1,6 @@
 # simple-object-store
 
-A simple persistence layer using a JSON file on the server or localStorage in the browser
+A very simple persistence layer using a JSON file on the server or localStorage in the browser
 
 ## Getting Started
 Install the module with: `npm install simple-object-store`
