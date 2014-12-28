@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/djheru/simple-object-store.svg?branch=master)](https://travis-ci.org/djheru/simple-object-store)
+
 # simple-object-store
 
 A very simple persistence layer using a JSON file on the server or localStorage in the browser
